@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/logo.png" />
+  <title>StudySphere</title>
+</head>
+
+<body>
+  <header class="header" id="home">
+    <nav>
+      <div class="nav__bar">
+        <div class="logo nav__logo">
+          
+          <img src="assets/logo.png" alt="logo" />
+
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="vidchat.html">About Us</a></li>
+          <li><a href>How It Works</a></li>
+          <li><a href>Contact Us</a></li>
+        </ul>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+        <div class="nav__action__btn">
+        
+  
+            <button class="btn" id="redirect-button">
+              <span><i class="ri-user-line"></i></span> Account
+            </button>
+        </div>
+      </div>
+    </nav>
+    <div class="section__container header__container">
+      <div class="header__content">
+        <h3 class="section__subheader">A Virtual Experience</h3>
+        <h1 class="section__header">
+          Be Prepared For The Challenges And Beyond!
+        </h1>
+        <div class="scroll__btn">
+          <a href="#about">
+            Scroll down
+            <span><i class="ri-arrow-down-line"></i></span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </header>
+  <section class="about">
+    <div class="section__container about__container">
+      <div class="about__image about__image-1" id="about">
+        <img src="https://images.pexels.com/photos/5905479/pexels-photo-5905479.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt="about" />
+      </div>
+      
+      <div class="about__content about__content-1">
+        <h3 class="section__subheader">GET STARTED</h3>
+        <h2 class="section__header">What level of learner are you?</h2>
+        <p>
+          Whether you're new to virtual group learning, eager for foundational understanding, or an experienced participant seeking advanced insights, our platform caters to learners of all levels. Discover your preferred learning style, explore tailored resources, and embrace knowledge with a deeper understanding of your capabilities within the virtual group environment.
+        </p>
+      </div>
+      
+      <div class="about__image about__image-2" id="equipment">
+        <img
+          src="https://images.pexels.com/photos/159775/library-la-trobe-study-students-159775.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt="about" />
+      </div>
+      <div class="about__content about__content-2">
+        <h3 class="section__subheader">LEARNING ESSENTIALS</h3>
+        <h2 class="section__header">Choosing the Right Study Group!</h2>
+        <p>
+          From diverse study groups that cater to various learning styles to dynamic virtual platforms that foster
+          collaboration, we guide you in selecting the perfect study group for your academic journey. Immerse yourself
+          in group learning with confidence, knowing you've joined a community that empowers you to conquer any academic
+          challenge ahead!
+        </p>
+      </div>
+      <div class="about__image about__image-3" id="blog">
+        <img src="https://images.pexels.com/photos/6238120/pexels-photo-6238120.jpeg?auto=compress&cs=tinysrgb&w=600" alt="about" />
+      </div>
+
+      <div class="about__content about__content-3" id="blog">
+        <h3 class="section__subheader">WHERE YOU LEARN IS THE KEY</h3>
+        <h2 class="section__header">Understanding Your Group Dynamics &
+          Synchronization</h2>
+        <p>
+          Knowing when to initiate discussions and anticipating changing dynamics ensures a fruitful and engaging
+          virtual learning experience. So, delve into the specifics of group interactions, grasp the nuances, and
+          synchronize your contributions with the rhythm of collaboration. It's not just about attending sessions; it's
+          a journey guided by your group dynamics and timed for collective success.
+        </p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      
+
+      // Add event listener to the redirect button
+      document.getElementById('redirect-button').addEventListener('click', () => {
+        window.location.href = "http://localhost:5174";
+      });
+    });
+  </script>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+  <spline-viewer
+  url="https://prod.spline.design/4u8dhX0RKLI8gMQ7/scene.splinecode"></spline-viewer>
+
+
+</body>
+
+</html>
